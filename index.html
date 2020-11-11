@@ -19,7 +19,7 @@
     </div>
     <div class="header-space"></div>
 
-    <div class="grid">
+    <div class="grid is-invisible">
       <div class="grid-item" id="img8.jpg"><img src="thumbs\img8.jpg" alt""><div class="image-text">Candlelight</div></div>
       <div class="grid-item" id="img7.jpg"><img src="thumbs\img7.jpg" alt""><div class="image-text">Taking The Plunge</div></div>
       <div class="grid-item" id="img6.jpg"><img src="thumbs\img6.jpg" alt""><div class="image-text">Unidentified Fluffy Object (UFO)</div></div>
@@ -34,14 +34,13 @@
     <script src="scripts/imagesloaded.pkgd.min.js"></script>
     <script src="scripts/main.js"></script>
     <script>
-      var $grid = $('.grid').masonry({
-        itemSelector: '.grid-item',
-        columnWidth: 360,
-        fitWidth: true
-      });
-
-      $('.grid').imagesLoaded( function() {
-        $grid.masonry();
+      var $grid = $('.grid').imagesLoaded( function() {
+        $grid.removeClass('is-invisible');
+        $grid.masonry({
+          itemSelector: '.grid-item',
+          columnWidth: 360,
+          fitWidth: true
+        });
       });
     </script>
   </body>
