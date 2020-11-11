@@ -1,10 +1,3 @@
-var elem = document.querySelector('.grid');
-var msnry = new Masonry( elem, {
-// options
-itemSelector: '.grid-item',
-columnWidth: 360,
-fitWidth: true
-});
 
 
 let galleryImages = document.querySelectorAll(".grid-item");
