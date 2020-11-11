@@ -7,7 +7,6 @@ body
 .grid
 {
   margin:0 auto 20px auto;
-  background: #DDD;
   transition: opacity 0.4s;
 }
 
