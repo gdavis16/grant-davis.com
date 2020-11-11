@@ -1,3 +1,7 @@
+let galleryImages = document.querySelectorAll(".grid-item");
+let getLatestOpenedImg;
+let windowWidth = window.innerWidth;
+
 var $grid = $('.grid').imagesLoaded( function() {
   $grid.removeClass('is-invisible');
   $grid.masonry({
@@ -6,11 +10,6 @@ var $grid = $('.grid').imagesLoaded( function() {
     fitWidth: true
   });
 });
-
-let galleryImages = document.querySelectorAll(".grid-item");
-let getLatestOpenedImg;
-let windowWidth = window.innerWidth;
-
 
 
 var imageMap = new Map();
