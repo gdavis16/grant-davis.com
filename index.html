@@ -3,16 +3,16 @@
   <head>
     <meta CHARSET="UTF-8" >
     <title>Grant's Website</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/index.css">
     <link rel="icon" href="images/favicon.png">
   </head>
   <body>
     <div class="header">
       <ul>
-        <li class="navlink"><a href="#">About</a></li>
-        <li class="navlink"><a href="#">Popup Book</a></li>
-        <li class="navlink"><a href="#">Functions</a></li>
-        <li class="navlink"><a href="#">Creations</a></li>
+        <li class="navlink"><a href="about.html">About</a></li>
+        <li class="navlink"><a href="popup.html">Popup Book</a></li>
+        <li class="navlink"><a href="functions.html">Functions</a></li>
+        <li class="navlink"><a href="index.html">Creations</a></li>
         <li class="website-name"><a>Grant Davis</a></li>
         <li class="profile-picture"><img src="images/profile_pic.jpg"></li>
       </ul>
@@ -33,15 +33,5 @@
     <script src="scripts/masonry.pkgd.min.js"></script>
     <script src="scripts/imagesloaded.pkgd.min.js"></script>
     <script src="scripts/main.js"></script>
-    <script>
-      var $grid = $('.grid').imagesLoaded( function() {
-        $grid.removeClass('is-invisible');
-        $grid.masonry({
-          itemSelector: '.grid-item',
-          columnWidth: 360,
-          fitWidth: true
-        });
-      });
-    </script>
   </body>
 </html>

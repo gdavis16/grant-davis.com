@@ -1,4 +1,11 @@
-
+var $grid = $('.grid').imagesLoaded( function() {
+  $grid.removeClass('is-invisible');
+  $grid.masonry({
+    itemSelector: '.grid-item',
+    columnWidth: 360,
+    fitWidth: true
+  });
+});
 
 let galleryImages = document.querySelectorAll(".grid-item");
 let getLatestOpenedImg;
