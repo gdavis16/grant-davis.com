@@ -1,3 +1,31 @@
+
+#headshot
+{
+  width: 20vw;
+  position: fixed;
+  top: 20vh;
+  left: 15vw;
+}
+
+h1
+{
+  position: fixed;
+  top: 17vh;
+  left: 40vw;
+  color: #686868;
+  font-size: 5vh;
+}
+
+p
+{
+  position: fixed;
+  top: 27vh;
+  left: 40vw;
+  color: black;
+  width: 30vw;
+  height: 30vh;
+}
+
 .header-space
 {
   height: 50px;
@@ -16,13 +44,46 @@
 }
 
 
-ul
+.navlink-list
 {
   position:relative;
   top:0%;
+  list-style-type: none;
 }
 
-ul li
+.email-text
+{
+  display: inline;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.p
+{
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.social-images
+{
+  position: fixed;
+  list-style-type: none;
+  top: 80vh;
+  left: calc(40vw - 54px);
+  height: 7vh;
+}
+
+.social-images img
+{
+  height: 7vh;
+}
+
+.social-link
+{
+  vertical-align: middle;
+  display: inline;
+  list-style-type: none;
+}
+
+.navlink
 {
   display: inline;
   float:right;
