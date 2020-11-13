@@ -263,21 +263,19 @@ if(galleryImages) {
           let imageWidth = this.width;
           let calcImgToEdge = ((windowWidth - imageWidth)/2)+80;
 
-          let newPrevBtn = document.createElement("a");
-          let btnPrevText = document.createTextNode("Prev");
-          newPrevBtn.appendChild(btnPrevText);
+          let newPrevBtn = document.createElement("img");
           container.appendChild(newPrevBtn);
+          newPrevBtn.setAttribute("src", "images/prev_btn.png");
           newPrevBtn.setAttribute("class", "img-btn-prev");
           newPrevBtn.setAttribute("onclick", "changeImg(0)");
-          newPrevBtn.style.cssText = "left: " + windowWidth / 8 + "px;";
+          //newPrevBtn.style.cssText = "left: " + windowWidth / 8 + "px;";
 
-          let newNextBtn = document.createElement("a");
-          let btnNextText = document.createTextNode("next");
-          newNextBtn.appendChild(btnNextText);
+          let newNextBtn = document.createElement("img");
           container.appendChild(newNextBtn);
+          newNextBtn.setAttribute("src", "images/next_btn.png");
           newNextBtn.setAttribute("class", "img-btn-next");
           newNextBtn.setAttribute("onclick", "changeImg(1)");
-          newNextBtn.style.cssText = "right: " + windowWidth / 8 + "px;";
+          //newNextBtn.style.cssText = "right: " + windowWidth / 8 + "px;";
         }
       }
   });

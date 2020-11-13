@@ -71,16 +71,13 @@ body
 .img-btn-next
 {
   display: block;
-  padding: 6px 10px;
-  border-radius: 4px;
-  background-color: #111111;
+  padding: 20px;
   position: fixed;
-  top: 48vh;
+  top: 44vh;
   z-index: 500;
-  color: #ffffff;
   cursor: pointer;
-  text-transform: uppercase;
-  font-family: Verdana, Geneva, sans-serif;
+  width: 3vw;
+  right: 11vw;
 }
 
 .img-btn-next:hover
@@ -92,16 +89,12 @@ body
 .img-btn-prev
 {
   display: block;
-  padding: 6px 10px;
-  border-radius: 4px;
-  background-color: #111111;
+  padding: 20px;
   position: fixed;
-  top: 48vh;
+  top: 44vh;
   z-index: 500;
-  color: #ffffff;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-family: Verdana, Geneva, sans-serif;
+  width: 3vw;
+  left: 12vw;
 }
 
 .img-btn-prev:hover
