@@ -4,14 +4,14 @@
   width: 20vw;
   position: fixed;
   top: 20vh;
-  left: 15vw;
+  left: 20vw;
 }
 
 h1
 {
   position: fixed;
   top: 17vh;
-  left: 40vw;
+  left: 45vw;
   color: #686868;
   font-size: 5vh;
 }
@@ -20,10 +20,11 @@ p
 {
   position: fixed;
   top: 27vh;
-  left: 40vw;
+  left: 45vw;
   color: black;
-  width: 30vw;
   height: 30vh;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 2.2vh;
 }
 
 .header-space
@@ -43,7 +44,6 @@ p
 		z-index: 90;
 }
 
-
 .navlink-list
 {
   position:relative;
@@ -55,20 +55,15 @@ p
 {
   display: inline;
   font-family: Verdana, Geneva, sans-serif;
-}
-
-.p
-{
-  font-family: Verdana, Geneva, sans-serif;
+  font-size: 2.2vh;
 }
 
 .social-images
 {
   position: fixed;
   list-style-type: none;
-  top: 80vh;
-  left: calc(40vw - 54px);
-  height: 7vh;
+  top: 70vh;
+  left: calc(45vw - 54px);
 }
 
 .social-images img
