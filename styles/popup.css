@@ -15,7 +15,6 @@
 		z-index: 90;
 }
 
-
 ul
 {
   position:relative;
@@ -28,7 +27,7 @@ ul li
   float:right;
 }
 
-ul li a
+.navlink a
 {
   text-decoration: none;
   padding: 15px;
@@ -41,28 +40,49 @@ ul li a
     border-top: 1px solid #d0d0d0;
 }
 
-.website-name
+.website-logo
 {
   float:left;
 }
 
-.website-name a
+.website-name
 {
+  display: inline;
   position: fixed;
   font-size: large;
   color: #404040;
-  left: calc(2.5vw + 50px);
+  margin-left: 10px;
+  left: calc(2.5vw + 40px);
   top: 0px;
+  padding: 15px;
   font-family: Verdana, Geneva, sans-serif;
+}
+
+.website-link
+{
+  position: fixed;
+  width: 15vw;
+  top: 0;
+  left: 1vw;
+  height: 50px;
+  display: block;
+  z-index: 100;
+}
+
+.website-link a
+{
+  position: fixed;
+  width: 15vw;
+  top: 0;
+  left: 1vw;
+  height: 50px;
+  display: block;
+  z-index: 100;
 }
 
 .profile-picture
 {
-    float:left;
-}
-
-.profile-picture img
-{
+  display: inline;
   position: fixed;
   top: 5px;
   left: 2.5vw;
