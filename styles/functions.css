@@ -15,7 +15,6 @@
 		z-index: 90;
 }
 
-
 ul
 {
   position:relative;
@@ -33,6 +32,7 @@ ul li a
   text-decoration: none;
   padding: 15px;
   color: #686868;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 .navlink a:hover {
@@ -52,6 +52,7 @@ ul li a
   color: #404040;
   left: calc(2.5vw + 50px);
   top: 0px;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 .profile-picture
@@ -67,4 +68,95 @@ ul li a
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.function_container
+{
+  height: 60vh;
+  width: 100%;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.function_container img
+{
+  width: 100%;
+}
+
+/*{
+  display: inline-block;
+  margin: 5vh;
+  height: 50vh;
+  width: 41vw;
+}
+
+.gif_title
+{
+  position: relative;
+  left: 60vw;
+  top: 5vh;
+}
+
+.gif_description
+{
+  position: relative;
+  top: 15vh;
+  left: 60vw;
+}*/
+
+.gif_container
+{
+  margin: 5vh;
+  display: flex 1;
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gif_text
+{
+  margin: 5vh;
+  display: flex 1;
+  width: 40vw;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.gif_title
+{
+  font-size: 4vh;
+}
+
+.gif_description
+{
+  font-size: 3vh;
+}
+
+.popcorn
+{
+  background: grey;
+}
+
+.circles
+{
+  background: lightgrey;
+}
+
+.deskfan
+{
+  background: grey;
+}
+
+.waterfall
+{
+  background: lightgrey;
+}
+
+.rising_temple
+{
+  background: grey;
 }

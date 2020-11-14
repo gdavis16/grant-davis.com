@@ -33,6 +33,7 @@ ul li a
   text-decoration: none;
   padding: 15px;
   color: #686868;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 .navlink a:hover {
@@ -52,6 +53,7 @@ ul li a
   color: #404040;
   left: calc(2.5vw + 50px);
   top: 0px;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 .profile-picture
