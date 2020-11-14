@@ -93,7 +93,7 @@ ul li
 
 .function_container
 {
-  height: 60vh;
+  max-height: 60vh;
   width: 100%;
   left: 0;
   display: flex;
@@ -130,6 +130,7 @@ ul li
   display: flex;
   justify-content: center;
   flex-direction: column;
+
 }
 
 .gif_text
@@ -147,6 +148,45 @@ ul li
   font-size: 4vh;
 }
 
+.function_container_mobile
+{
+  position: relative;
+  top: 0;
+  height:50vh
+  display: flex;
+}
+
+
+.gif_container_mobile
+{
+  display: flex;
+  max-width: 90vw;
+  margin: auto;
+}
+
+.gif_container_mobile video
+{
+  display: flex;
+  max-width: 90vw;
+  margin: auto;
+}
+
+.gif_title_mobile
+{
+  height: 10vh;
+  font-size: 6vh;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #434343;
+  margin: 0;
+  text-align: center;
+}
+
+.gif_text_mobile
+{
+  margin: auto;
+}
+
+/*current unused*/
 .gif_description
 {
   font-size: 3vh;
