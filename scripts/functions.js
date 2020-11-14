@@ -15,22 +15,18 @@ function load_img(gif_name)
 popcorn.onload = function()
 {
   load_img("circles");
-  alert("Popcorn loaded");
   var circles = document.querySelector(".circles img");
   circles.onload = function()
   {
     load_img("deskfan");
-    alert("circles loaded");
     var deskfan = document.querySelector(".deskfan img");
     deskfan.onload = function()
     {
       load_img("waterfall");
-      alert("deskfan loaded");
       var waterfall = document.querySelector(".waterfall img");
       waterfall.onload = function()
       {
         load_img("rising_temple");
-        alert("waterfall loaded");
         rising_temple = document.querySelector(".rising_temple img");
       }
     }
