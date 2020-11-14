@@ -162,6 +162,7 @@ ul li
   display: flex;
   max-width: 90vw;
   margin: auto;
+  padding-bottom: 3vh;
 }
 
 .gif_container_mobile video
