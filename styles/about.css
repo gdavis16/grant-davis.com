@@ -27,6 +27,7 @@ p
   font-size: 2.2vh;
 }
 
+
 .header-space
 {
   height: 50px;
@@ -44,13 +45,42 @@ p
 		z-index: 90;
 }
 
-ul
+.navlink-list
 {
   position:relative;
   top:0%;
+  list-style-type: none;
 }
 
-ul li
+.email-text
+{
+  display: inline;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 2.2vh;
+}
+
+.social-images
+{
+  position: fixed;
+  list-style-type: none;
+  top: 70vh;
+  left: calc(45vw - 54px);
+}
+
+.social-images img
+{
+  height: 7vh;
+}
+
+.social-link
+{
+  vertical-align: middle;
+  display: inline;
+  list-style-type: none;
+  margin-left: 1vw;   
+}
+
+.navlink
 {
   display: inline;
   float:right;
