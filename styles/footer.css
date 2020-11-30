@@ -1,6 +1,6 @@
 .footer
 {
-  height: 20vh;
+  height: 25vh;
   width: 100%;
   top: 2vh;
   position: relative;
@@ -12,8 +12,9 @@
 .footer-disclaimer
 {
   position: relative;
+  width: 50vw;
   top: 2vh;
-  padding: 0;
+  padding-left: 25vw;
   margin: 0;
 }
 
@@ -23,6 +24,7 @@
   color: grey;
   padding: 0;
   margin: 0;
+  font-size: 1.8vh;
 }
 
 .footer-social-links
@@ -55,7 +57,7 @@
 .footer-social-links img
 {
   position: relative;
-  height: 3vh;
-  width: 3vh;
+  height: 2.5vh;
+  width: 2.5vh;
   opacity: 0.8;
 }
