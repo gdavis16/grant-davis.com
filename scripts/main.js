@@ -438,3 +438,18 @@ function remove_fullscreen_icon()
   newFullscreenIcon.setAttribute("src", "images/fullscreen_enter.png");
   newFullscreenIcon.setAttribute("id", "fullscreen-icon");
 }
+
+function topFunction() {
+  currentYOffset = self.pageYOffset;
+  initYOffset = currentYOffset;
+
+  var intervalId = setInterval(function(){
+  currentYOffset -= initYOffset*0.025;
+  document.body.scrollTop = currentYOffset ;
+  document.documentElement.scrollTop = currentYOffset;
+
+    if(self.pageYOffset == 0){
+      clearInterval(intervalId);
+    }
+  }, 20);
+}

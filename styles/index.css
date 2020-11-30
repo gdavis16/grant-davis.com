@@ -148,3 +148,25 @@ body
   font-size: 3vh;
   font-family: sans-serif;
 }
+
+.top-link
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-link-button
+{
+  background-color: white;
+  border: none;
+  padding: 1vh;
+}
+
+.top-link-text
+{
+  font-size: 2vh;
+  line-height: 2vh;
+  color: darkgrey;
+  font-family: Verdana, Geneva, sans-serif;
+}
