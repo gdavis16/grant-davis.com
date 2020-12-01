@@ -3,36 +3,65 @@
   position: relative;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
 }
 
-#headshot
+.headshot
 {
-  width: 20vw;
-  position: fixed;
-  top: 20vh;
-  left: 20vw;
+  position: relative;
+  display: inline-block;
+  float: left;
+  top: 10vh;
+  left: 15vw;
+  max-width: 25vw;
 }
 
-h1
+.headshot-img
 {
-  position: fixed;
-  top: 17vh;
-  left: 45vw;
-  color: #686868;
+  position: relative;
+  width:100%;
+  max-width: 25vw;
+}
+
+.description
+{
+  position: relative;
+  display: inline-block;
+  float: left;
+  top: 10vh;
+  left: 18vw;
+  width: 45vw;
+  height: auto;
+}
+
+.about-text
+{
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.about-text p
+{
+  position: relative;
+  float: left;
+  margin: 0px;
+  padding: 0px;
   font-size: 5vh;
 }
 
-p
+
+.description-text
 {
-  position: fixed;
-  top: 27vh;
-  left: 45vw;
-  color: black;
-  height: 30vh;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 2.2vh;
+  position: relative;
+  display: flex;
+  float: left;
+  margin: 0;
+  padding: 0;
+  top: 5vh;
+  font-size: 2.5vh;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .email-text
@@ -44,10 +73,12 @@ p
 
 .social-images
 {
-  position: fixed;
-  list-style-type: none;
-  top: 70vh;
-  left: calc(45vw - 54px);
+  position: relative;
+  top: 10vh;
+  padding: 0;
+  margin: 0;
+  left: -1vw;
+  word-wrap: normal;
 }
 
 .social-images img
