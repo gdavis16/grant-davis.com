@@ -1,3 +1,8 @@
+body
+{
+  margin: 0;
+}
+
 .header-space
 {
   height: 10vh;
@@ -54,7 +59,9 @@
 {
   text-decoration: none;
   color: #8f8f8f;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
   transition-duration: 0.4s;
   transition-timing-function: linear;
 }
@@ -63,7 +70,9 @@
 {
   text-decoration: none;
   color: black;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
   transition-duration: 0.4s;
   transition-timing-function: linear;
 }
@@ -86,7 +95,9 @@
   left: calc(3vw + 8vh);
   top: 2.3vh;
   padding-top: 0px;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
   transition-duration: 0.4s;
   transition-timing-function: linear;
 }
@@ -99,7 +110,9 @@
   color: grey;
   left: calc(3vw + 8vh);
   top: 5.2vh;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
   transition-duration: 0.4s;
   transition-timing-function: linear;
 }
