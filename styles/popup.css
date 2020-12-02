@@ -6,6 +6,7 @@
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+  top: 5vh;
 }
 
 .project-image-container
@@ -120,4 +121,35 @@
 .set-thumb5
 {
   padding-left: 1.2vw;
+}
+
+.title
+{
+  position: relative;
+  left: 25vw;
+  width: 50vw;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 10vh;
+  line-height: 10vh;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
+  color: black;
+  bottom: 5vh;
+}
+
+.text
+{
+  position: relative;
+  left: 25vw;
+  width: 50vw;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 2vh;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
+  color: #121212;
+  bottom: 5vh;
 }
