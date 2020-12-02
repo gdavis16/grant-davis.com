@@ -6,8 +6,9 @@
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  top: 5vh;
+  padding-top: 8vh;
 }
+
 
 .project-image-container
 {
@@ -33,6 +34,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  padding-bottom: 8vh;
 }
 
 .project-thumbnail img
@@ -142,14 +144,45 @@
 .text
 {
   position: relative;
-  left: 25vw;
-  width: 50vw;
-  padding-top: 5vh;
+  left: 27.5vw;
+  width: 45vw;
   text-align: center;
-  font-size: 2vh;
+  font-size: 2.3vh;
   font-family: 'Hind', sans-serif;
   font-family: 'Nerko One', cursive;
   font-family: 'PT Sans', sans-serif;
   color: #121212;
-  bottom: 5vh;
+}
+
+.image
+{
+  position: relative;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.image img
+{
+  position: relative;
+  left: 25vw;
+  width: 50vw;
+}
+
+.top-link
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 4vh;
+}
+
+.top-link-text
+{
+  font-size: 2vh;
+  line-height: 2vh;
+  color: darkgrey;
+  text-decoration: none;
+  font-family: Verdana, Geneva, sans-serif;
+  padding-bottom: 2vh;
 }

@@ -22,11 +22,11 @@ body
 .text
 {
   position: relative;
-  left: 25vw;
-  width: 50vw;
+  left: 27.5vw;
+  width: 45vw;
   padding-top: 5vh;
   text-align: center;
-  font-size: 2vh;
+  font-size: 2.3vh;
   font-family: 'Hind', sans-serif;
   font-family: 'Nerko One', cursive;
   font-family: 'PT Sans', sans-serif;
