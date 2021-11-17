@@ -13,6 +13,13 @@ var $grid = $('.grid').imagesLoaded( function() {
 
 
 var imageMap = new Map();
+imageMap.set("img70.jpg", "Fred's Adventure: The Lava Lake");
+imageMap.set("img69.jpg", "Unscheduled Maintenance");
+imageMap.set("img68.jpg", "Life On The Rocks");
+imageMap.set("img67.jpg", "The Blue Beetle Brigade");
+imageMap.set("img66.jpg", "A Modern Study");
+imageMap.set("img65.jpg", "Turtleback");
+imageMap.set("img64.jpg", "The Experiment");
 imageMap.set("img63.jpg", "Candlelight");
 imageMap.set("img62.jpg", "Taking The Plunge");
 imageMap.set("img61.jpg", "The Painted City");
@@ -80,6 +87,13 @@ imageMap.set("img1.jpg", "Damsel In Distress");
 
 
 var downloadMap = new Map();
+downloadMap.set("img70.jpg", "https://www.flickr.com/photos/93970753@N05/51521834628/sizes/l/");
+downloadMap.set("img69.jpg", "https://www.flickr.com/photos/93970753@N05/51259455148/sizes/l/");
+downloadMap.set("img68.jpg", "https://www.flickr.com/photos/93970753@N05/51251903285/sizes/l/");
+downloadMap.set("img67.jpg", "https://www.flickr.com/photos/93970753@N05/51245263758/sizes/l/");
+downloadMap.set("img66.jpg", "https://www.flickr.com/photos/93970753@N05/51239815408/sizes/l/");
+downloadMap.set("img65.jpg", "https://www.flickr.com/photos/93970753@N05/51234967343/sizes/l/");
+downloadMap.set("img64.jpg", "https://www.flickr.com/photos/93970753@N05/51231978751/sizes/l/");
 downloadMap.set("img63.jpg", "https://www.flickr.com/photos/93970753@N05/50247625651/sizes/l/");
 downloadMap.set("img62.jpg", "https://www.flickr.com/photos/93970753@N05/50246012981/sizes/l/");
 downloadMap.set("img61.jpg", "https://www.flickr.com/photos/93970753@N05/49404328886/sizes/l/");
