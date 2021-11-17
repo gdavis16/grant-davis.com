@@ -1,0 +1,172 @@
+body
+{
+  /*background: rgb(206,206,206);*/
+  /*background: linear-gradient(rgba(206,206,206,1) 0%, rgba(255,255,255,1) 50%);*/
+}
+
+.grid
+{
+  margin:0 auto 20px auto;
+  transition: opacity 0.4s;
+}
+
+.is-invisible {
+  opacity: 0;
+}
+
+.grid-item img
+{
+  width: 350px;
+  margin-top: 10px;
+  transition-duration: 0.1s;
+}
+
+.grid img:hover
+{
+    transform: scale(1.03);
+    filter: brightness(60%);
+    cursor: pointer;
+}
+
+.image-text
+{
+ text-align: center;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+
+ color: white;
+ font-size: large;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.1s linear;
+ transition: visibility 0s, opacity 0.1s linear;
+ z-index: 90;
+}
+
+.grid-item:hover div
+{
+ visibility: visible;
+ opacity: 1;
+}
+
+.img-window
+{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.img-btn-next
+{
+  display: block;
+  padding: 20px;
+  position: fixed;
+  top: 42vh;
+  z-index: 500;
+  cursor: pointer;
+  width: 3vw;
+  right: 11vw;
+}
+
+.img-btn-next:hover
+{
+  opacity: 0.8;
+}
+
+
+.img-btn-prev
+{
+  display: block;
+  padding: 20px;
+  position: fixed;
+  top: 42vh;
+  z-index: 500;
+  width: 3vw;
+  left: 12vw;
+}
+
+.img-btn-prev:hover
+{
+  opacity: 0.8;
+}
+
+#download-icon
+{
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  top: 2%;
+  right: calc(4vw + 20px);
+  z-index: 500;
+}
+
+#fullscreen-icon
+{
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  top: 2%;
+  right: 3%;
+  z-index: 500;
+}
+
+#link-icon
+{
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  top: 2%;
+  right: calc(5vw + 40px);
+  z-index: 500;
+}
+
+.img-window img
+{
+  max-height: 90vh;
+  max-width: 90vw;
+}
+
+.img-window div
+{
+  position: fixed;
+  top: 0vh;
+  left: center;
+  color: white;
+  font-style: italic;
+  margin-top: 0.5vh;
+  font-size: 3vh;
+  font-family: sans-serif;
+}
+
+.top-link
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-link-button
+{
+  background-color: white;
+  border: none;
+  padding: 1vh;
+}
+
+.top-link-text
+{
+  font-size: 2vh;
+  line-height: 2vh;
+  color: darkgrey;
+  font-family: Verdana, Geneva, sans-serif;
+}

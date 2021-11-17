@@ -1,0 +1,99 @@
+.about
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 120vh;
+  width: 100vw;
+}
+
+.headshot
+{
+  position: relative;
+  display: inline-block;
+  float: left;
+  top: 10vh;
+  left: 15vw;
+  max-width: 25vw;
+}
+
+.headshot-img
+{
+  position: relative;
+  width:100%;
+  max-width: 25vw;
+}
+
+.description
+{
+  position: relative;
+  display: inline-block;
+  float: left;
+  top: 10vh;
+  left: 18vw;
+  width: 45vw;
+  height: auto;
+}
+
+.title
+{
+  position: relative;
+  width: 30vw;
+  left: 0vw;
+  font-size: 10vh;
+  line-height: 10vh;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
+  color: black;
+}
+
+.title p
+{
+  padding: 0;
+  margin: 0;
+}
+
+
+.description-text
+{
+  position: relative;
+  display: flex;
+  float: left;
+  margin: 0;
+  padding: 0;
+  top: 5vh;
+  font-size: 2.3vh;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.email-text
+{
+  display: inline;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 2.2vh;
+}
+
+.social-images
+{
+  position: relative;
+  top: 10vh;
+  padding: 0;
+  margin: 0;
+  left: -1vw;
+  word-wrap: normal;
+}
+
+.social-images img
+{
+  height: 7vh;
+}
+
+.social-link
+{
+  vertical-align: middle;
+  display: inline;
+  list-style-type: none;
+  margin-left: 1vw;
+}

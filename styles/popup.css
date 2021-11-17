@@ -1,0 +1,188 @@
+
+.slide-container
+{
+  width: 45vw;
+  height: 30vw;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8vh;
+}
+
+
+.project-image-container
+{
+  width: calc(45vw*5);
+  height: 35vw;
+  position: relative;
+  transition: left 1s;
+  left: 0;
+}
+
+.project-image-container img
+{
+  width: 45vw;
+  height: 30vw;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.button-container
+{
+  top: 1.2vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8vh;
+}
+
+.project-thumbnail img
+{
+  width: 8vw;
+  transition-duration: 0.8s;
+}
+
+.project-prev-button img
+{
+  height: 5.3333vw;
+  padding-right: 1vw;
+}
+
+.project-next-button img
+{
+  height: 5.3333vw;
+  padding-left: 1vw;
+}
+
+.project-thumb2
+{
+  padding-left: 1.2vw;
+}
+.project-thumb3
+{
+  padding-left: 1.2vw;
+}
+.project-thumb4
+{
+  padding-left: 1.2vw;
+}
+.project-thumb5
+{
+  padding-left: 1.2vw;
+}
+
+
+.set-image-container
+{
+  width: calc(45vw*5);
+  height: 35vw;
+  position: relative;
+  transition: left 1s;
+  left: 0;
+}
+
+.set-image-container img
+{
+  width: 45vw;
+  height: 30vw;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.set-thumbnail img
+{
+  width: 8vw;
+  transition-duration: 0.8s;
+}
+
+.set-prev-button img
+{
+  height: 5.3333vw;
+  padding-right: 1vw;
+}
+
+.set-next-button img
+{
+  height: 5.3333vw;
+  padding-left: 1vw;
+}
+
+.set-thumb2
+{
+  padding-left: 1.2vw;
+}
+.set-thumb3
+{
+  padding-left: 1.2vw;
+}
+.set-thumb4
+{
+  padding-left: 1.2vw;
+}
+.set-thumb5
+{
+  padding-left: 1.2vw;
+}
+
+.title
+{
+  position: relative;
+  left: 25vw;
+  width: 50vw;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 10vh;
+  line-height: 10vh;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
+  color: black;
+  bottom: 5vh;
+}
+
+.text
+{
+  position: relative;
+  left: 27.5vw;
+  width: 45vw;
+  text-align: center;
+  font-size: 2.3vh;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
+  color: #121212;
+}
+
+.image
+{
+  position: relative;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.image img
+{
+  position: relative;
+  left: 25vw;
+  width: 50vw;
+}
+
+.top-link
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 4vh;
+}
+
+.top-link-text
+{
+  font-size: 2vh;
+  line-height: 2vh;
+  color: darkgrey;
+  text-decoration: none;
+  font-family: Verdana, Geneva, sans-serif;
+  padding-bottom: 2vh;
+}

@@ -1,0 +1,142 @@
+body
+{
+  margin: 0;
+}
+
+.header-space
+{
+  height: 10vh;
+}
+
+.header
+{
+		background: rgba(255, 255, 255, 1);
+		width: 100%;
+    height: 10vh;
+    position: fixed;
+		top: 0px;
+		left: 0px;
+    transition: height 0.4s linear;
+		z-index: 90;
+}
+
+.navlink-list
+{
+  position: absolute;
+  right: 0;
+  top: 3.75vh;
+  margin: 0;
+  list-style-type: none;
+  width: 50vw;
+  transition: top 0.4s linear;
+}
+
+.navlink
+{
+  display: inline;
+  float:right;
+  line-height: 2.5vh;
+  font-size: 2.5vh;
+  padding-right: 1.5vw;
+  transition: lineHeight 0.4s linear;
+  transition: fontSize 0.4s linear;
+  transition: paddingRight 0.4s linear;
+}
+
+.navlink-active
+{
+  display: inline;
+  float:right;
+  line-height: 2.5vh;
+  font-size: 2.5vh;
+  padding-right: 1.5vw;
+  transition: lineHeight 0.4s linear;
+  transition: fontSize 0.4s linear;
+  transition: paddingRight 0.4s linear;
+}
+
+.navlink a
+{
+  text-decoration: none;
+  color: #8f8f8f;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}
+
+.navlink-active a
+{
+  text-decoration: none;
+  color: black;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}
+
+.navlink a:hover {
+    color: black;
+}
+
+.website-logo
+{
+  float:left;
+}
+
+.website-name
+{
+  position: fixed;
+  line-height: 2.5vh;
+  font-size: 2.5vh;
+  color: black;
+  left: calc(3vw + 8vh);
+  top: 2.3vh;
+  padding-top: 0px;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}
+
+.website-description
+{
+  position: fixed;
+  line-height: 2.5vh;
+  font-size: 2.5vh;
+  color: grey;
+  left: calc(3vw + 8vh);
+  top: 5.2vh;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}
+
+.website-link
+{
+  position: fixed;
+  width: 15vw;
+  top: 0;
+  left: 1vw;
+  height: 10vh;
+  display: block;
+  z-index: 100;
+}
+
+.profile-picture
+{
+  display: inline;
+  position: fixed;
+  top: 1vh;
+  left: 2.5vw;
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}

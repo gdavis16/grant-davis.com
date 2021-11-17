@@ -1,0 +1,128 @@
+
+
+.function_container
+{
+  max-height: 60vh;
+  width: 100%;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+/*{
+  display: inline-block;
+  margin: 5vh;
+  height: 50vh;
+  width: 41vw;
+}
+
+.gif_title
+{
+  position: relative;
+  left: 60vw;
+  top: 5vh;
+}
+
+.gif_description
+{
+  position: relative;
+  top: 15vh;
+  left: 60vw;
+}*/
+
+.gif_container
+{
+  margin: 5vh;
+  display: flex 1;
+  max-height: 50vh;
+  max-width: 40vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.gif_text
+{
+  margin: 5vh;
+  display: flex 1;
+  max-width: 40vw;
+  max-height: 50vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.gif_title
+{
+  font-size: 4vh;
+}
+
+.function_container_mobile
+{
+  position: relative;
+  top: 0;
+  height:50vh
+  display: flex;
+}
+
+
+.gif_container_mobile
+{
+  display: flex;
+  max-width: 90vw;
+  margin: auto;
+  padding-bottom: 3vh;
+}
+
+.gif_container_mobile video
+{
+  display: flex;
+  max-width: 90vw;
+  margin: auto;
+}
+
+.gif_title_mobile
+{
+  height: 10vh;
+  font-size: 6vh;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #434343;
+  margin: 0;
+  text-align: center;
+}
+
+.gif_text_mobile
+{
+  margin: auto;
+}
+
+/*current unused*/
+.gif_description
+{
+  font-size: 3vh;
+}
+
+.popcorn
+{
+  background: grey;
+}
+
+.circles
+{
+  background: lightgrey;
+}
+
+.deskfan
+{
+  background: grey;
+}
+
+.waterfall
+{
+  background: lightgrey;
+}
+
+.rising_temple
+{
+  background: grey;
+}

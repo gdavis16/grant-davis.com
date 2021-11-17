@@ -1,0 +1,187 @@
+body
+{
+  padding: 0;
+  margin: 0;
+}
+
+.title
+{
+  position: relative;
+  left: 25vw;
+  width: 50vw;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 10vh;
+  line-height: 10vh;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
+  color: black;
+}
+
+.text
+{
+  position: relative;
+  left: 27.5vw;
+  width: 45vw;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 2.3vh;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-family: 'PT Sans', sans-serif;
+  color: #121212;
+}
+
+.list-5
+{
+  display: flex;
+  justify-content: center;
+  list-style-type:none;
+  padding-top: 5vh;
+}
+
+.list-5-item
+{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  display: inline;
+}
+
+.list-5-image
+{
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+}
+
+.list-5-image:hover
+{
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+}
+
+.span
+{
+  position: relative;
+  margin: 0;
+  background-color: black;
+  top: 0;
+}
+
+.span-image
+{
+  position: relative;
+  width: 100%;
+  padding: 0;
+  opacity: 0.3;
+  top: 0;
+}
+
+.span-text
+{
+  font-size: 4vw;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section
+{
+  position:relative;
+  top: 6vh;
+  height:6vh;
+  padding-bottom: 6vh;
+}
+
+.image
+{
+  position: relative;
+  top: 2vh;
+}
+
+.image img
+{
+  position: relative;
+  left: 25vw;
+  width: 50vw;
+}
+
+.top-link
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 4vh;
+}
+
+.top-link-text
+{
+  font-size: 2vh;
+  line-height: 2vh;
+  color: darkgrey;
+  text-decoration: none;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.list-2
+{
+  display: flex;
+  justify-content: center;
+  list-style-type:none;
+  padding-top: 5vh;
+  padding-left: 0;
+}
+
+.list-2-item
+{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  display: inline;
+}
+
+.list-2-image
+{
+  width: 50vh;
+}
+
+
+.list-3
+{
+  display: flex;
+  justify-content: center;
+  list-style-type:none;
+  padding-top: 5vh;
+  padding-left: 0;
+}
+
+.list-3-item
+{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  display: inline;
+}
+
+.list-3-image
+{
+  width: 40vh;
+}
+
+.spacing
+{
+  position: relative;
+  width: 100%;
+  height: 2vh;
+}
+
+.video
+{
+    position: relative;
+    width: 50vw;
+    left: 25vw;
+    top: 2vh;
+    padding-bottom: 2vh;
+}
